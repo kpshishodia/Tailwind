@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react";
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,30 +10,26 @@ function App() {
   return (
     <>
 
-    <h1 class="text-3xl font-bold underline text-yellow-300 ">
-    Hello world!
-  </h1>
-  <h2 class= "text-2xl font-bold text-red-400 p-2 border-2 cursor-pointer" >hello world 2</h2>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <div class = " bg-gray-800 text-white flex justify-center items-center min-h-screen">
+    <div class = "bg-gray-700 border-black rounded-lg p-8 max-w-sm w-full shadow-2xl">
+      <h1 class ="text-white text-3xl text-center font-bold">Login</h1>
+
+      <form>
+        <div class = "mb-4">
+          <label  For = "email" class = "block text-sm text-gray-300 mb-2"> Email</label>
+          <input  class = "rounded-lg bg-gray-600 px-3 py-2 w-full text-white focus:outline-none focus:ring-2 focus:ring-blue-500   " type="email" name="" id="" placeholder='Email' />
+        </div>
+
+        <div>
+          <label For="password" class = "block text-sm text-gray-300 mb-2"  >Password</label>
+          <input class = "rounded-lg bg-gray-600 px-3 py-2 w-full text-white focus:outline-none focus:ring-2 focus:ring-blue-500"    type="password" name="" id="" placeholder='Password' />
+        </div>
+
+        <button type='submit' class = " w-full bg-blue-500 text-white rounded-lg px-3 py-2 mt-6 hover:bg-blue-600 shadow-2xl">Login</button>
+      </form>
+    </div>
+
+    </div>
     </>
   )
 }
