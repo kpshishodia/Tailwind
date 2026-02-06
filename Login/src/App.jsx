@@ -17,7 +17,7 @@ function App() {
       <form>
         <div class = "mb-4">
           <label  For = "email" class = "block text-sm text-gray-300 mb-2"> Email</label>
-          <input  class = "rounded-lg bg-gray-600 px-3 py-2 w-full text-white focus:outline-none focus:ring-2 focus:ring-blue-500   " type="email" name="" id="" placeholder='Email' />
+          <input  class = "rounded-lg bg-gray-600 px-3 py-2 w-full text-white focus:outline-none focus:ring-2 focus:ring-blue-500" type="email" name="" id="" placeholder='Email' />
         </div>
 
         <div>
