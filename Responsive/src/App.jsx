@@ -37,8 +37,8 @@ function App() {
 <div className="m-4 grid gap-4 sm:grid-cols-12">
   <div className="sm:col-span-2 min-h-[100px] rounded-lg bg-orange-500 shadow"></div>
   <div className="sm:col-span-8 min-h-[100px] rounded-lg bg-teal-500 shadow"></div>
-  {/* <div className="sm:col-span-2 min-h-[100px] rounded-lg bg-red-500 shadow"></div> */}
-  <div className="hidden sm:block sm:col-span-2 min-h-[100px] rounded-lg bg-red-500 shadow"></div>
+  <div className="sm:col-span-2 min-h-[100px] rounded-lg bg-red-500 shadow"></div>
+  {/* <div className="hidden sm:block sm:col-span-2 min-h-[100px] rounded-lg bg-red-500 shadow"></div> */}
 </div>
 
     </>
